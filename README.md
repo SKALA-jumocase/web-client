@@ -109,11 +109,16 @@ src/
 
 ## 🤖 API 연동
 
-이 프로젝트는 백엔드 API와 연동되어 다음 기능을 제공합니다:
+이 프로젝트는 **Axios**를 사용하여 백엔드 API(`localhost:8005`)와 연동되어 다음 기능을 제공합니다:
 
 - `POST /liquors/recommendations` - 전통주 추천
 - `GET /liquors/{liquor_id}/pairings` - 음식 페어링
 - `GET /recommendations` - 추천 기록 조회
+
+### API 클라이언트
+- **Base URL**: `http://localhost:8005`
+- **HTTP 클라이언트**: Axios v1.12.2
+- **Content-Type**: `application/json`
 
 ## 👥 개발팀
 

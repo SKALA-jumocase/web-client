@@ -23,7 +23,7 @@ export const getLiquorRecommendations = async (
   return response.data;
 };
 
-// GET /liquors/{liquor_id}/pairings
+// POST /liquors/{liquor_id}/pairings
 export const getLiquorPairings = async (
   liquorId: number
 ): Promise<PairingResponse> => {
