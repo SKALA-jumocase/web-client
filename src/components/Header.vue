@@ -1,12 +1,15 @@
 <script setup lang="ts">
-import Logo from '../assets/logo.png'
+import Logo from '../assets/Logo_WH.png';
 </script>
 
 <template>
   <header class="bg-primaryContainer text-surface w-full shadow-lg">
     <div class="mx-auto max-w-6xl px-6 py-4">
       <div class="flex items-center justify-between">
-        <router-link to="/" class="flex items-center space-x-3 transition-opacity hover:opacity-80">
+        <router-link
+          to="/"
+          class="flex items-center space-x-3 transition-opacity hover:opacity-80"
+        >
           <img class="w-30" :src="Logo" />
           <div>
             <h1 class="text-2xl font-bold tracking-wide"></h1>
